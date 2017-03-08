@@ -1,0 +1,109 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ishan.herome.Fragments.MainFragment"
+    android:background="@drawable/hero_bg_gradient">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:minHeight="?attr/actionBarSize"
+            android:background="#253748"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:src="@drawable/top_banner_bar"
+                android:layout_weight="1" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/heroes"
+            android:id="@+id/imageView"
+            android:baselineAlignBottom="false"
+            android:layout_marginTop="15dp"
+            android:adjustViewBounds="true"
+            android:layout_height="120dp" />
+
+        <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:id="@+id/button"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textAlignment="center"
+            tools:text="CAME BY ACCIDENT"
+            android:background="@drawable/hero_button"
+            android:textColor="@color/hero_yellow"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/lightning"
+            android:drawableRight="@drawable/item_selected"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="65dp" />
+
+        <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:id="@+id/button"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textAlignment="center"
+            tools:text="GENERIC MUTATION"
+            android:background="@drawable/hero_button"
+            android:textColor="@color/hero_yellow"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/rocket"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="65dp" />
+
+        <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:id="@+id/button"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textAlignment="center"
+            tools:text="BORN WITH THEM"
+            android:background="@drawable/hero_button"
+            android:textColor="@color/hero_yellow"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/atomic"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="65dp" />
+
+        <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:id="@+id/button"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textAlignment="center"
+            tools:text="CHOOSE POWERS"
+            android:textColor="#10161D"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/hero_solid_button"
+            android:backgroundTint="@color/hero_yellow"
+            android:layout_height="50dp"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
